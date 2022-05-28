@@ -1,0 +1,36 @@
+{
+  "name": "dhan-gaadi",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "npm": "6.14.15",
+    "node": "14.18.1"
+  },
+  "repository": "https://github.com/Fidellis-Taz/zupco-bus-book.git",
+  "author": "Dango <dangoweb@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cron": "^1.7.2",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.6.10",
+    "mongoose-slug-generator": "^1.0.4",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.3.0",
+    "nodemon": "^2.0.15",
+    "rotating-file-stream": "^1.4.3",
+    "sharp": "^0.30.3",
+    "uuid": "^3.3.3"
+  }
+}

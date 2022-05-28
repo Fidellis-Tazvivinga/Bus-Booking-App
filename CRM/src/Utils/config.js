@@ -1,0 +1,10 @@
+/* export const API = process.env.REACT_APP_API_URL;
+export const JWT_SECRET = process.env.REACT_APP_JWT_SECRET;
+export const SERVER_ROUTE = process.env.REACT_APP_SERVER_ROUTE; */
+//export const API = "http://localhost:8525/api";
+export const API = "https://zupco-book.herokuapp.com/api";
+export const JWT_SECRET = "yjsgosıjf934y49874½½½334";
+export const SERVER_ROUTE = "http://localhost:8525/api";
+export const busKey = 'sidebarBuses';
+export const peopleKey = 'sidebarPeople';
+export const jwtKey = 'jwt';
